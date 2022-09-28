@@ -10,8 +10,8 @@ files[] = {"id":"823981-7a63f145-f664-4f71-9b04-dd3bdcd2eaf2","path":"OAS 3.0.js
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"index.proto","metaData":{}}
+files[] = {"path":"index.graphql","metaData":{}}
 
 [relations.apiDefinition.metaData]
-rootFiles[] = index.proto
-type = proto:3
+type = graphql
+rootFiles[] = index.graphql
