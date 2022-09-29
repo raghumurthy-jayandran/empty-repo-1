@@ -1,4 +1,4 @@
-id = 15653997-b5ff-4ada-a10c-6a30f84e3c47
+id = 59917b0c-d600-4a3f-b2e5-c539fe72cfcc
 
 [relations]
 
@@ -16,4 +16,3 @@ files[] = {"path":"New.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = openapi:3
-rootFiles[] = New.yaml
