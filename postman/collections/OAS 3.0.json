@@ -1,14 +1,14 @@
 {
 	"info": {
-		"_postman_id": "7a63f145-f664-4f71-9b04-dd3bdcd2eaf2",
+		"_postman_id": "3c9e2a10-bfae-49aa-a272-46ce8ffa58aa",
 		"name": "OAS 3.0",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "823981-7a63f145-f664-4f71-9b04-dd3bdcd2eaf2"
+		"_uid": "592998-3c9e2a10-bfae-49aa-a272-46ce8ffa58aa"
 	},
 	"item": [
 		{
 			"name": "Sample endpoint: Returns details about a particular user",
-			"id": "7516ac32-30a4-4b18-9520-ead5d10d7eb1",
+			"id": "80904198-a03a-42fb-aaa2-77b922ef3cae",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -39,7 +39,7 @@
 			},
 			"response": [
 				{
-					"id": "202a6705-c5c6-419b-b623-5b73403907b2",
+					"id": "da3aecae-7bbf-4fa2-9b8f-e24e05d2f499",
 					"name": "Sample response: Details about a user by ID",
 					"originalRequest": {
 						"method": "GET",
@@ -69,6 +69,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"disabled": false,
@@ -85,7 +86,7 @@
 					"body": "{\n  \"id\": 13064623,\n  \"name\": \"pariatur et\",\n  \"tag\": \"amet elit\"\n}"
 				},
 				{
-					"id": "a0882182-7e3a-44d7-beb1-8a7b276eab20",
+					"id": "b410b154-349a-48c8-99eb-2dc721940a3e",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "GET",
@@ -115,6 +116,7 @@
 					"status": "Internal Server Error",
 					"code": 500,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
