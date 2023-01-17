@@ -14,5 +14,4 @@ files[] = {"id":"592998-81eb5446-b348-4f00-bf21-267862a7fb46","path":"OAS 3.0.js
 rootDirectory = postman/schemas
 
 [relations.apiDefinition.metaData]
-rootFiles[] = multi-file-local-spec/index/user_api.yaml
 type = openapi:3
