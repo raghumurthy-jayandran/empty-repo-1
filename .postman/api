@@ -5,12 +5,16 @@ id = 01e5b09e-173f-4181-9ada-12b88e19fcbe
 
 [relations.collections]
 rootDirectory = postman/collections
+files[] = {"id":"592998-a205d529-0f31-43bd-a4e9-d86fd0d18087","path":"collection-1.json","metaData":{}}
 files[] = {"id":"592998-3c9e2a10-bfae-49aa-a272-46ce8ffa58aa","path":"OAS 3.0.json","metaData":{}}
 
 [relations.collections.metaData]
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
+files[] = {"path":"f-1/f-1/f-1/components/user_components.yaml","metaData":{}}
+files[] = {"path":"f-1/f-1/f-1/index/user_api.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
-type = wsdl:2
+type = openapi:3
+rootFiles[] = f-1/f-1/f-1/index/user_api.yaml

@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "a205d529-0f31-43bd-a4e9-d86fd0d18087",
+		"name": "collection-1",
+		"description": "Add your service description here\n",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "592998-a205d529-0f31-43bd-a4e9-d86fd0d18087"
+	},
+	"item": [
+		{
+			"name": "Get",
+			"id": "f8ae4316-74b5-4f2a-bc98-23cd3c262095",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml; charset=utf-8"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <request xmlns=\"http://www.example.com/wsdl20sample\">\n      <tickerSymbol>string</tickerSymbol>\n    </request>\n  </soap:Body>\n</soap:Envelope>\n",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{SoapEndpointBaseUrl}}/soap/",
+					"host": [
+						"{{SoapEndpointBaseUrl}}"
+					],
+					"path": [
+						"soap",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "ea10b95e-7907-425a-88ad-8ae431c9e156",
+					"name": "Get response",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "text/xml; charset=utf-8"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <request xmlns=\"http://www.example.com/wsdl20sample\">\n      <tickerSymbol>string</tickerSymbol>\n    </request>\n  </soap:Body>\n</soap:Envelope>\n",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://www.example.com/soap/",
+							"protocol": "http",
+							"host": [
+								"www",
+								"example",
+								"com"
+							],
+							"path": [
+								"soap",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "xml",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/xml; charset=utf-8"
+						}
+					],
+					"cookie": [],
+					"body": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n  <soap:Body>\n    <response xmlns=\"http://www.example.com/wsdl20sample\">\n      <price>2</price>\n    </response>\n  </soap:Body>\n</soap:Envelope>\n"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"id": "8a062830-8a13-477e-9fc3-3853c0cec925",
+			"key": "SoapEndpointBaseUrl",
+			"value": "http://www.example.com",
+			"type": "any"
+		}
+	]
+}
