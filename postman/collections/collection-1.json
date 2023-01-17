@@ -1,15 +1,15 @@
 {
 	"info": {
-		"_postman_id": "a205d529-0f31-43bd-a4e9-d86fd0d18087",
+		"_postman_id": "b1ef31cf-647e-4310-ac75-c02b2c9aee92",
 		"name": "collection-1",
 		"description": "Add your service description here\n",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "592998-a205d529-0f31-43bd-a4e9-d86fd0d18087"
+		"_uid": "592998-b1ef31cf-647e-4310-ac75-c02b2c9aee92"
 	},
 	"item": [
 		{
 			"name": "Get",
-			"id": "f8ae4316-74b5-4f2a-bc98-23cd3c262095",
+			"id": "6f3801c5-8476-4899-acb0-c002d7dbed2d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -43,7 +43,7 @@
 			},
 			"response": [
 				{
-					"id": "ea10b95e-7907-425a-88ad-8ae431c9e156",
+					"id": "5f77ee80-8b84-46ff-97de-623e02fa42f3",
 					"name": "Get response",
 					"originalRequest": {
 						"method": "POST",
@@ -79,6 +79,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "xml",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
