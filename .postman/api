@@ -12,9 +12,8 @@ files[] = {"id":"592998-3c9e2a10-bfae-49aa-a272-46ce8ffa58aa","path":"OAS 3.0.js
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"f-1/f-1/f-1/components/user_components.yaml","metaData":{}}
-files[] = {"path":"f-1/f-1/f-1/index/user_api.yaml","metaData":{}}
+files[] = {"path":"index.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = openapi:3
-rootFiles[] = f-1/f-1/f-1/index/user_api.yaml
+rootFiles[] = index.yaml
