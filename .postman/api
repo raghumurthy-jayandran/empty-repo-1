@@ -14,5 +14,5 @@ files[] = {"id":"592998-16dd9df5-47a8-4c22-beeb-bacebf02a927","path":"OAS 3.0.js
 rootDirectory = postman/schemas
 
 [relations.apiDefinition.metaData]
-type = wsdl:2
-rootFiles[] = index.wsdl
+type = proto:3
+rootFiles[] = index.proto
