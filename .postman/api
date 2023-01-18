@@ -15,4 +15,3 @@ rootDirectory = postman/schemas
 
 [relations.apiDefinition.metaData]
 type = openapi:3
-rootFiles[] = index.yaml
