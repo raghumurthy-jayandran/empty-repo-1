@@ -1,14 +1,14 @@
 {
 	"info": {
-		"_postman_id": "81eb5446-b348-4f00-bf21-267862a7fb46",
+		"_postman_id": "16dd9df5-47a8-4c22-beeb-bacebf02a927",
 		"name": "OAS 3.0",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "592998-81eb5446-b348-4f00-bf21-267862a7fb46"
+		"_uid": "592998-16dd9df5-47a8-4c22-beeb-bacebf02a927"
 	},
 	"item": [
 		{
 			"name": "Sample endpoint: Returns details about a particular user",
-			"id": "5d4ffbb8-06d1-4cbf-ac76-7518435e9965",
+			"id": "fc022fcc-d672-47cc-a3d1-5c67c1fa0fbe",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -39,7 +39,7 @@
 			},
 			"response": [
 				{
-					"id": "191a1eda-cc17-4efe-802d-b33bdeba4913",
+					"id": "eed5b628-da31-4f9c-861d-0e4674e37deb",
 					"name": "Sample response: Details about a user by ID",
 					"originalRequest": {
 						"method": "GET",
@@ -86,7 +86,7 @@
 					"body": "{\n  \"id\": 13064623,\n  \"name\": \"pariatur et\",\n  \"tag\": \"amet elit\"\n}"
 				},
 				{
-					"id": "678c60b5-5fbc-4598-91d9-822c8f204fa5",
+					"id": "a9502127-7450-40ee-bf3b-15dec50bea9c",
 					"name": "Unexpected error",
 					"originalRequest": {
 						"method": "GET",

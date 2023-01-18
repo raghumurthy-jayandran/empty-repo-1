@@ -1,15 +1,15 @@
 {
 	"info": {
-		"_postman_id": "b1ef31cf-647e-4310-ac75-c02b2c9aee92",
+		"_postman_id": "0c6f347b-82ea-453d-90c5-8cd846e71d0b",
 		"name": "collection-1",
 		"description": "Add your service description here\n",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "592998-b1ef31cf-647e-4310-ac75-c02b2c9aee92"
+		"_uid": "592998-0c6f347b-82ea-453d-90c5-8cd846e71d0b"
 	},
 	"item": [
 		{
 			"name": "Get",
-			"id": "6f3801c5-8476-4899-acb0-c002d7dbed2d",
+			"id": "71e586dd-d4c3-4df3-bffb-b8b1eb76e6d4",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -43,7 +43,7 @@
 			},
 			"response": [
 				{
-					"id": "5f77ee80-8b84-46ff-97de-623e02fa42f3",
+					"id": "d3e74f70-e58a-440c-9073-488283bef59f",
 					"name": "Get response",
 					"originalRequest": {
 						"method": "POST",
