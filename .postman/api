@@ -15,3 +15,4 @@ rootDirectory = postman/schemas
 
 [relations.apiDefinition.metaData]
 type = wsdl:2
+rootFiles[] = index.wsdl
